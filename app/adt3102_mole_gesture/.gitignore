@@ -1,0 +1,35 @@
+#Ignore everything in this directory
+*
+#Except this file
+!doc/
+!doc/*.txt
+!doc/*.doc
+!gui/
+!gui/*.exe
+!gui/*.ini
+!src/
+!src/*.h
+!src/*.c
+!src/adt3102_inthandler
+!src/adt3102_inthandler/*.h
+!src/adt3102_inthandler/*.c
+!matlab/
+!matlab/*.m
+!.gitignore
+!adt3102_mole_gesture_dev/
+!adt3102_mole_gesture_dev/*.uvprojx
+!adt3102_mole_gesture_dev/*.ini
+!adt3102_mole_gesture_dev/*.md
+!adt3102_mole_gesture_dev/*.uvoptx
+!adt3102_mole_gesture_release/
+!adt3102_mole_gesture_release/*.uvprojx
+!adt3102_mole_gesture_release/*.ini
+!adt3102_mole_gesture_release/*.md
+!adt3102_mole_gesture_release/*.uvoptx
+!adt3102_mole_gesture_release/*.lib
+!app_lib/
+!app_lib/*.uvprojx
+!app_lib/*.ini
+!app_lib/*.md
+!app_lib/*.uvoptx
+!app_lib/*.bat
